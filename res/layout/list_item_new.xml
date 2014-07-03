@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     >
+     <RelativeLayout 
+         android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/bg_card"
+    >
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:padding="2dip"
+        android:textColor="@color/palletblue"
+        android:textAppearance="@android:attr/textAppearanceLarge"
+        android:textSize="22sp"
+        android:textIsSelectable="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center_vertical"
+        android:padding="2dip"
+        android:textIsSelectable="true"
+        android:textAppearance="@android:attr/textAppearanceLarge"
+        android:textColor="#878787"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+         
+    
+</RelativeLayout>
+</FrameLayout>

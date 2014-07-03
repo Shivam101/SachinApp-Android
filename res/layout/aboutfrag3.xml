@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/scrollojt"
+android:fillViewport="true" >
+
+   <RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:background="#e5e5e5"
+ >
+
+<ListView
+android:id="@+id/listView1"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:dividerHeight="0dp"
+android:divider="@null"
+ >
+ </ListView>
+
+ <ListView
+android:id="@+id/listView2"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_below="@+id/listView1"
+android:layout_marginTop="10dp"
+android:dividerHeight="0dp"
+android:divider="@null"
+ >
+</ListView>
+    </RelativeLayout>
+  </ScrollView>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shivamb7.sachinapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo4"
+        android:label="The Sachin App"
+        android:theme="@style/AppTheme2" >
+        <activity
+            android:name="com.shivamb7.sachinapp.MainActivity"
+            android:label="The Sachin App" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Start"
+            android:label="The Sachin App"
+            android:theme="@style/AppTheme"
+             >
+        </activity>
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name="com.shivamb7.sachinapp.SplashScreen"
+            android:label="@string/title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Bio"
+            android:label="@string/title_activity_bio"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz"
+            android:label="@string/title_activity_quiz" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quotes"
+            android:label="Famous Quotes" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Facts"
+            android:label="@string/title_activity_facts" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Gallery"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Century"
+            android:label="@string/title_activity_century" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz1"
+            android:label="@string/title_activity_quiz1" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz2"
+            android:label="@string/title_activity_quiz2" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz3"
+            android:label="@string/title_activity_quiz3" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz4"
+            android:label="@string/title_activity_quiz4" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz5"
+            android:label="@string/title_activity_quiz5" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.ImagesSwipe"
+            android:label="Gallery" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz6"
+            android:label="@string/title_activity_quiz6" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz7"
+            android:label="@string/title_activity_quiz7" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz8"
+            android:label="@string/title_activity_quiz8" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Quiz9"
+            android:label="@string/title_activity_quiz9" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Century2"
+            android:hardwareAccelerated="true"
+            android:label="100 Centuries" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.About2"
+            android:hardwareAccelerated="true"
+            android:label="Biography"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Sat"
+            android:label="@string/title_activity_sat" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Facts2"
+            android:label="Interesting Facts" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Ex"
+            android:label="@string/title_activity_ex" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.FinalQuiz"
+            android:label="@string/title_activity_final_quiz" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="com.shivamb7.sachinapp.Info"
+            android:label="@string/title_activity_info" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>
